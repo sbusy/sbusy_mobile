@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="724a6bbf-7202-4902-83aa-63d2063f2862" name="Default Changelist" comment="Сверстал примерный шаблон">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/font/Avenir-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/image/onboard1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/image/onboard2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/image/onboard3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/image/path.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/image/path1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/image/s-busy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/image/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/check_list.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/forgot_password.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/home_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/login_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/new_note.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/new_task.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/onboarding.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/password_changed_successfully.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/reset_password.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbusy_mobile.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbusy_mobile.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kbKo3z6RTumSrLU1OSyxMd1QXE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/asset/image" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="724a6bbf-7202-4902-83aa-63d2063f2862" name="Default Changelist" comment="" />
+      <created>1605964022785</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605964022785</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Добавил статичный календарь">
+      <created>1605965449609</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605965449609</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Добавил статичный календарь" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил статичный календарь" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="278" y="25" key="CommitChangelistDialog2" timestamp="1606088748221">
+      <screen x="0" y="25" width="1440" height="797" />
+    </state>
+    <state x="278" y="25" key="CommitChangelistDialog2/0.25.1440.794@0.25.1440.794" timestamp="1605965449326" />
+    <state x="278" y="25" key="CommitChangelistDialog2/0.25.1440.797@0.25.1440.797" timestamp="1606088748221" />
+    <state width="1398" height="199" key="GridCell.Tab.0.bottom" timestamp="1606088685396">
+      <screen x="0" y="25" width="1440" height="797" />
+    </state>
+    <state width="1398" height="199" key="GridCell.Tab.0.bottom/0.25.1440.791@0.25.1440.791" timestamp="1606074576780" />
+    <state width="1398" height="200" key="GridCell.Tab.0.bottom/0.25.1440.794@0.25.1440.794" timestamp="1605965586883" />
+    <state width="1398" height="199" key="GridCell.Tab.0.bottom/0.25.1440.797@0.25.1440.797" timestamp="1606088685396" />
+    <state width="1398" height="199" key="GridCell.Tab.0.center" timestamp="1606088685395">
+      <screen x="0" y="25" width="1440" height="797" />
+    </state>
+    <state width="1398" height="199" key="GridCell.Tab.0.center/0.25.1440.791@0.25.1440.791" timestamp="1606074576779" />
+    <state width="1398" height="200" key="GridCell.Tab.0.center/0.25.1440.794@0.25.1440.794" timestamp="1605965586883" />
+    <state width="1398" height="199" key="GridCell.Tab.0.center/0.25.1440.797@0.25.1440.797" timestamp="1606088685395" />
+    <state width="1398" height="199" key="GridCell.Tab.0.left" timestamp="1606088685394">
+      <screen x="0" y="25" width="1440" height="797" />
+    </state>
+    <state width="1398" height="199" key="GridCell.Tab.0.left/0.25.1440.791@0.25.1440.791" timestamp="1606074576778" />
+    <state width="1398" height="200" key="GridCell.Tab.0.left/0.25.1440.794@0.25.1440.794" timestamp="1605965586882" />
+    <state width="1398" height="199" key="GridCell.Tab.0.left/0.25.1440.797@0.25.1440.797" timestamp="1606088685394" />
+    <state width="1398" height="199" key="GridCell.Tab.0.right" timestamp="1606088685395">
+      <screen x="0" y="25" width="1440" height="797" />
+    </state>
+    <state width="1398" height="199" key="GridCell.Tab.0.right/0.25.1440.791@0.25.1440.791" timestamp="1606074576780" />
+    <state width="1398" height="200" key="GridCell.Tab.0.right/0.25.1440.794@0.25.1440.794" timestamp="1605965586883" />
+    <state width="1398" height="199" key="GridCell.Tab.0.right/0.25.1440.797@0.25.1440.797" timestamp="1606088685395" />
+    <state x="320" y="157" key="Vcs.Push.Dialog.v2" timestamp="1605965457152">
+      <screen x="0" y="25" width="1440" height="794" />
+    </state>
+    <state x="320" y="157" key="Vcs.Push.Dialog.v2/0.25.1440.794@0.25.1440.794" timestamp="1605965457152" />
+  </component>
+</project>
