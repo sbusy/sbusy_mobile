@@ -1,6 +1,10 @@
 <component name="libraryTable">
   <library name="Flutter Plugins" type="FlutterPluginsLibraryType">
-    <CLASSES />
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../development/flutter/.pub-cache/hosted/pub.dartlang.org/speech_recognition-0.3.0+1" />
+      <root url="file://$PROJECT_DIR$/../../development/flutter/.pub-cache/hosted/pub.dartlang.org/permission_handler-5.0.1+1" />
+      <root url="file://$PROJECT_DIR$/../../development/flutter/.pub-cache/hosted/pub.dartlang.org/multi_image_picker-4.7.14" />
+    </CLASSES>
     <JAVADOC />
     <SOURCES />
   </library>

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'home_page.dart';
+import '../home_page.dart';
+import '../../widgets/wave_widget.dart';
 
 class NewTask extends StatefulWidget {
   @override
@@ -22,25 +23,14 @@ class NewTaskState extends State<NewTask> {
             Icons.arrow_back,
             color: Colors.white,
           ),
-          onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>HomePage()));},
+          onPressed: () => Navigator.pop(context),
         ),
       ),
       body: Container(
         height: MediaQuery.of(context).size.height,
         child: Stack(
           children: [
-            Container(
-              height: 30,
-              color: Color(0xfff96060),
-            ),
-            Positioned(
-              bottom: 0,
-              child: Container(
-                height: 70,
-                width: MediaQuery.of(context).size.width,
-                color: Colors.black.withOpacity(0.8),
-              ),
-            ),
+
             Container(
               margin: EdgeInsets.symmetric(horizontal: 30),
               decoration: BoxDecoration(

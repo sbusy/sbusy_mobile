@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="36px" viewBox="0 0 43 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic_add_photo</title>
+    <g id="design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="2_6_2-написать-отзыв-" transform="translate(-35.000000, -338.000000)" stroke="#D1D1D1">
+            <g id="ic_add_photo" transform="translate(32.500000, 332.500000)">
+                <g id="Group-3" transform="translate(3.000000, 7.000000)">
+                    <path d="M37.6666667,0 L37.6662214,17.0949025 C39.7023164,18.7762187 41,21.3198976 41,24.1666667 C41,29.2292769 36.8959435,33.3333333 31.8333333,33.3333333 C28.9870244,33.3333333 26.4437078,32.0360692 24.7623846,30.0005421 L1,30 L1,0 L37.6666667,0 Z" id="Combined-Shape" stroke-width="1.4"></path>
+                    <circle id="Oval" stroke-width="1.4" cx="31.8333333" cy="24.1666667" r="9.16666667"></circle>
+                    <polyline id="Path-4" stroke-width="1.4" points="0.983621244 17.4741312 5.01134094 13.8866661 12.6545585 20.6944329 22.8075878 11.6511922 26.7182781 15.13442 27.8095602 16.1728126"></polyline>
+                    <circle id="Oval" stroke-width="1.4" cx="12.5633333" cy="8.33333333" r="3.33333333"></circle>
+                    <g id="Group" transform="translate(27.666667, 20.000000)" stroke-linecap="round" stroke-width="1.4">
+                        <g id="Group-2" transform="translate(0.833333, 0.833333)">
+                            <line x1="0" y1="3.33333333" x2="6.66666667" y2="3.33333333" id="Path-10"></line>
+                            <line x1="3.33333333" y1="6.66666667" x2="3.33333333" y2="4.62592927e-17" id="Path-10"></line>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -26,6 +26,10 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>NSMicrophoneUsageDescription</key>
+    <string>Приложению нужен доступ к вашему микрофону</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>Приложению необходимо разрешение на распознавание речи</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

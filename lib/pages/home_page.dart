@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'check_list.dart';
-import 'new_task.dart';
+import 'create/check_list.dart';
+import 'create/new_task.dart';
 import 'package:table_calendar/table_calendar.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
-import 'new_note.dart';
+import 'create/new_note.dart';
+import '../widgets/fade_animation.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -18,7 +19,9 @@ class HomePageState extends State<HomePage> {
   CalendarController ctrlr = new CalendarController();
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return MediaQuery(
+      data: MediaQuery.of(context).copyWith(textScaleFactor: 1.0),
+      child: Scaffold(
         body: Stack(
           children: [
             Column(
@@ -28,13 +31,13 @@ class HomePageState extends State<HomePage> {
                   backgroundColor: Color(0xfff96060),
                   elevation: 0,
                   title: Text("S-BUSY", style: TextStyle(
-                    fontSize: 30
+                      fontSize: 30
                   ),),
                   actions: [
                     IconButton(
                       icon: Icon(Icons.short_text,
-                      color: Colors.white,
-                          size: 30,
+                        color: Colors.white,
+                        size: 30,
                       ),
                     )
                   ],
@@ -102,8 +105,8 @@ class HomePageState extends State<HomePage> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text("Сегодня ${monthNames[today.month-1]}, ${today.day}/${today.year}", style: TextStyle(
-                                fontSize: 18,
-                                color: Colors.grey
+                                  fontSize: 18,
+                                  color: Colors.grey
                               ), )
                             ],
                           ),
@@ -123,7 +126,7 @@ class HomePageState extends State<HomePage> {
                         bottom: 0,
                         child: Container(
                           height: 90,
-                            width: MediaQuery.of(context).size.width,
+                          width: MediaQuery.of(context).size.width,
                           color: Color(0xff292e4e),
                           padding: EdgeInsets.all(20),
                           child: Row(
@@ -138,8 +141,8 @@ class HomePageState extends State<HomePage> {
                                     ),
                                     SizedBox(height: 5,),
                                     Text("Профиль", style: TextStyle(
-                                      color: Colors.white,
-                                      fontSize: 15
+                                        color: Colors.white,
+                                        fontSize: 15
                                     ),)
                                   ],
                                 ),
@@ -204,17 +207,17 @@ class HomePageState extends State<HomePage> {
                             height: 80,
                             width: 80,
                             decoration: BoxDecoration(
-                              gradient: LinearGradient(
-                                begin: Alignment.topRight,
-                                end: Alignment.bottomLeft,
-                                colors: [Color(0xfff96060), Colors.red],
-                              ),
-                              shape: BoxShape.circle
+                                gradient: LinearGradient(
+                                  begin: Alignment.topRight,
+                                  end: Alignment.bottomLeft,
+                                  colors: [Color(0xfff96060), Colors.red],
+                                ),
+                                shape: BoxShape.circle
                             ),
                             child: Center(
                               child: Text("+", style: TextStyle(
-                                fontSize: 40,
-                                color: Colors.white
+                                  fontSize: 40,
+                                  color: Colors.white
                               ),),
                             ),
                           ),
@@ -235,8 +238,8 @@ class HomePageState extends State<HomePage> {
                     onTap: closeTaskPop,
                     child: Container(
                       decoration: BoxDecoration(
-                        borderRadius: BorderRadius.all(Radius.circular(10)),
-                        color: Colors.white
+                          borderRadius: BorderRadius.all(Radius.circular(10)),
+                          color: Colors.white
                       ),
                       height: MediaQuery.of(context).size.height*0.3,
                       width: MediaQuery.of(context).size.width*0.7,
@@ -248,7 +251,7 @@ class HomePageState extends State<HomePage> {
                             onTap: openNewTask,
                             child: Container(
                               child: Text("Добавить задачу", style: TextStyle(
-                                fontSize: 18
+                                  fontSize: 18
                               ),),
                             ),
                           ),
@@ -288,6 +291,7 @@ class HomePageState extends State<HomePage> {
             )
           ],
         ),
+      ),
     );
   }
   openTaskPop()
